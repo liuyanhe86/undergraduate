@@ -1,0 +1,49 @@
+F -> number 
+T -> F 
+E -> T 
+F -> number 
+T -> F 
+E -> T 
+F -> id 
+T -> F 
+E -> T 
+F -> id 
+T -> F 
+F -> number 
+T -> T / F 
+E -> E + T 
+F -> number 
+T -> F 
+F -> id 
+T -> F 
+E -> T 
+F -> number 
+T -> F 
+E -> E + T 
+F -> ( E ) 
+T -> T * F 
+E -> E - T 
+F -> id 
+T -> F 
+E -> T 
+F -> number 
+T -> F 
+E -> E + T 
+F -> id 
+T -> F 
+F -> number 
+T -> T * F 
+F -> id 
+T -> F 
+E -> T 
+F -> number 
+T -> F 
+E -> E - T 
+F -> ( E ) 
+T -> T / F 
+E -> E - T 
+S -> E ; 
+S -> id = E ; S 
+S -> id = E ; S 
+S -> id = E ; S 
+S' -> S 

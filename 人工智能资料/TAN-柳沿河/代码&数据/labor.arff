@@ -1,0 +1,76 @@
+@relation labor-weka.filters.supervised.attribute.Discretize-Rfirst-last-precision6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.ReplaceMissingValues
+@attribute duration {'\'All\''}
+@attribute wage-increase-first-year {'\'(-inf-2.65]\'','\'(2.65-inf)\''}
+@attribute wage-increase-second-year {'\'(-inf-3.25]\'','\'(3.25-inf)\''}
+@attribute wage-increase-third-year {'\'(-inf-3.25]\'','\'(3.25-inf)\''}
+@attribute cost-of-living-adjustment {none,tcf,tc}
+@attribute working-hours {'\'All\''}
+@attribute pension {none,ret_allw,empl_contr}
+@attribute standby-pay {'\'(-inf-6]\'','\'(6-inf)\''}
+@attribute shift-differential {'\'(-inf-3.5]\'','\'(3.5-inf)\''}
+@attribute education-allowance {yes,no}
+@attribute statutory-holidays {'\'(-inf-10.5]\'','\'(10.5-inf)\''}
+@attribute vacation {below_average,average,generous}
+@attribute longterm-disability-assistance {yes,no}
+@attribute contribution-to-dental-plan {none,half,full}
+@attribute bereavement-assistance {yes,no}
+@attribute contribution-to-health-plan {none,half,full}
+@attribute class {bad,good}
+@data
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(-inf-3.5]\'',no,'\'(10.5-inf)\'',average,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',ret_allw,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(10.5-inf)\'',below_average,yes,full,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',generous,yes,half,yes,half,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tc,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(10.5-inf)\'',below_average,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,half,yes,half,good
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(10.5-inf)\'',average,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tc,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',generous,yes,none,yes,half,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(-inf-3.25]\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(-inf-3.5]\'',no,'\'(10.5-inf)\'',below_average,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(10.5-inf)\'',below_average,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',generous,yes,full,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(-inf-3.5]\'',no,'\'(10.5-inf)\'',generous,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',below_average,yes,full,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(-inf-3.5]\'',no,'\'(-inf-10.5]\'',below_average,no,half,yes,half,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tcf,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',generous,yes,full,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',generous,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,full,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(-inf-3.5]\'',no,'\'(10.5-inf)\'',below_average,yes,half,yes,full,good
+'\'All\'','\'(-inf-2.65]\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tc,'\'All\'',ret_allw,'\'(-inf-6]\'','\'(-inf-3.5]\'',no,'\'(-inf-10.5]\'',below_average,yes,half,yes,none,bad
+'\'All\'','\'(-inf-2.65]\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',none,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(10.5-inf)\'',average,no,none,no,none,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tcf,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',generous,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',generous,yes,full,yes,full,good
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',none,'\'All\'',none,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',below_average,yes,half,yes,full,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tcf,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',below_average,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(-inf-10.5]\'',generous,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(-inf-3.5]\'',no,'\'(-inf-10.5]\'',generous,yes,half,yes,full,good
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(-inf-3.25]\'',none,'\'All\'',none,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(-inf-10.5]\'',below_average,yes,half,yes,full,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tcf,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(-inf-10.5]\'',below_average,yes,none,yes,half,good
+'\'All\'','\'(2.65-inf)\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(10.5-inf)\'',generous,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',below_average,yes,full,yes,full,good
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',none,'\'All\'',none,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(-inf-10.5]\'',average,yes,half,yes,full,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(-inf-3.25]\'','\'(-inf-3.25]\'',tc,'\'All\'',none,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(-inf-10.5]\'',below_average,yes,half,yes,full,bad
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(-inf-10.5]\'',average,yes,half,yes,full,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',none,'\'(6-inf)\'','\'(-inf-3.5]\'',no,'\'(-inf-10.5]\'',below_average,no,none,yes,none,bad
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(-inf-3.25]\'',tc,'\'All\'',none,'\'(-inf-6]\'','\'(-inf-3.5]\'',no,'\'(-inf-10.5]\'',below_average,no,half,yes,full,bad
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',none,'\'All\'',none,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,none,yes,full,bad
+'\'All\'','\'(-inf-2.65]\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tc,'\'All\'',ret_allw,'\'(-inf-6]\'','\'(-inf-3.5]\'',no,'\'(10.5-inf)\'',generous,no,none,no,none,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(-inf-6]\'','\'(-inf-3.5]\'',no,'\'(-inf-10.5]\'',below_average,yes,half,yes,none,bad
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(-inf-3.25]\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(-inf-10.5]\'',average,yes,half,yes,none,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,full,yes,half,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',none,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(10.5-inf)\'',average,no,none,no,none,bad
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(10.5-inf)\'',generous,yes,none,yes,full,bad
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',tc,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,half,yes,full,bad
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',tcf,'\'All\'',none,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',below_average,yes,half,yes,full,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',none,'\'(6-inf)\'','\'(-inf-3.5]\'',no,'\'(-inf-10.5]\'',below_average,no,none,yes,none,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(-inf-3.5]\'',no,'\'(-inf-10.5]\'',below_average,no,half,yes,half,bad
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,full,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tcf,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',below_average,yes,half,yes,half,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',below_average,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',ret_allw,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,full,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',below_average,yes,full,yes,full,good
+'\'All\'','\'(-inf-2.65]\'','\'(-inf-3.25]\'','\'(3.25-inf)\'',tcf,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',yes,'\'(10.5-inf)\'',below_average,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',tcf,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',generous,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,full,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',generous,yes,half,yes,full,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(10.5-inf)\'',average,yes,half,yes,half,good
+'\'All\'','\'(2.65-inf)\'','\'(3.25-inf)\'','\'(3.25-inf)\'',none,'\'All\'',empl_contr,'\'(6-inf)\'','\'(3.5-inf)\'',no,'\'(-inf-10.5]\'',generous,yes,full,yes,full,good
