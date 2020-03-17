@@ -1,2 +1,2 @@
 # School-Work
-Mainly school work and some other files。
+Mainly school work and some other files.
