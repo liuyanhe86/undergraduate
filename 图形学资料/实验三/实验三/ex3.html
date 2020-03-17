@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<script id="vertex-shader" type="x-shader/x-vertex">
+
+attribute  vec4 vPosition;
+attribute  vec4 vColor;
+varying vec4 fColor;
+
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+
+void main()
+{
+    fColor = vColor;
+    gl_Position = projectionMatrix*modelViewMatrix*vPosition;
+}
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+
+precision mediump float;
+
+varying vec4 fColor;
+
+void main()
+{
+    gl_FragColor = fColor;
+}
+</script>
+
+<script type="text/javascript" src="Common/webgl-utils.js"></script>
+<script type="text/javascript" src="Common/initShaders.js"></script>
+<script type="text/javascript" src="Common/MV.js"></script>
+<script type="text/javascript" src="ex3.js"></script>
+
+<body>
+    <div style="margin: 0 auto; text-align: center;display: inline-block;">
+        <ul style="list-style: none; font-size: 14px;">操作说明：
+            <li>鼠标左键拖动调整视角；</li>
+            <li>鼠标滚轮滑动调整视距；</li>
+            <li>WS：向前/后移动f1赛车</li>
+            <li>AD：调整f1赛车转角</li>            
+            <li>↑↓：增大（/减小）视点高度（漫游时）/向前（/后）移动滑板</li>
+            <li> ←→：调整滑板转角</li>
+        </ul>
+        <button id="wander" style="margin-right: 15px;">自动漫游</button>
+        <button id="stopwander">停止漫游</button>
+    </div>
+<canvas id="gl-canvas" width="512px" height="512px" style="display:inline-block;">
+Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+
+<br/>
+
+</body>
+</html>
