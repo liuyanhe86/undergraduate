@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+/*	width: 300px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid black;
+
+	单行文本以下3步实现溢出打点：
+	white-space: nowrap;/*溢出部分不换行
+	overflow: hidden;
+	text-overflow: ellipsis;/*溢出文字打点显示*/*/
+
+	/*多行文本不打点，直接截断*/
+	/*width: 300px;
+	height: 40px;
+	line-height: 20px;
+	border: 1px solid black;
+	overflow: hidden;*//*溢出部分隐藏*/
+}

@@ -1,0 +1,99 @@
+/*按标签修饰*/
+div{
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	background-color: black;
+}
+
+/*按id来修饰*/
+#id{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: black!important;/*最高级*/
+}
+
+/*按类修饰*/
+.demo{
+	color:#f40;
+}
+
+/*通配符，即全部的标签，全局修饰*/
+*{
+	background-color:green;
+}
+
+/*父子选择器，通过id或class或标签等形成直接(父 > 子)或间接父子关系*/
+div span{
+
+}
+
+/*并列选择器,将多个选择器连在一起写，形成并列的统一的条件*/
+div .demo{
+	height: auto;
+}
+
+/*！对同一个标签进行修饰的复杂选择器，各个嵌套选择器的权重总和大的修饰
+eg.*/
+/*100 1*/
+#id p{
+	height: auto;
+}
+
+  /*10    10*/
+.classDiv .p{
+	height: auto;
+}
+
+/*权重表
+选择器			权重值
+！important		∞
+行间样式			1000
+id 				100
+class|属性|伪类	10
+标签选择器|伪元素 1
+通配符			0*/
+
+/*分组选择器,各个标签共用一个修饰代码块*/
+em,strong,span{
+	height: auto;
+}
+
+
+
+/*属性*/
+div{
+	/*字体属性*/
+	font-size: 30px;/*字体大小*/
+	font-weight: bold;/*字体粗细*/
+	font-style: italic;/*斜体*/
+	font-family: airal;/*字体*/
+	color: green;/*字体颜色，英文单词或颜色代码或颜色函数*/
+	color: #ff4400;/*RGB，每两位代表一个原色的饱和度的十六进制数，若连续两位相同则省略一位，如f40*/
+	color: rgb(0,0,0);/*颜色函数*/
+	
+	/*容器属性*/
+	width: 0;
+	height: 0;
+	border: 1px solid blue;/*容器边框，参数为粗细，是否实心，颜色，等于对三个属性分别赋值，如下*/
+	border-width: 1px;
+	border-style: dashed;
+	height: 200px;/*容器高度*/
+	border-color: blue;
+	border-left-style: 10px;/*可以对四个方向的border分别修饰*/
+	border-top-color: black;/*边框均分进行上色*/
+	border-left-color: yellow;
+	border-right-color: pink;
+	border-bottom-color: blue;
+	opacity: 0.5;/*透明度*/
+
+	/*文本属性*/
+	text-align: right;/*文本水平对齐方式，左右和居中*/
+	line-height: 20px;/*行高，单行文本在容器内垂直居中的方法：文本行高和容器高度相等*/
+	text-indent: 2em;/*缩进，1em=1个英文字母的相对宽度，即不随字体大小改变*/
+	line-height: 1.2em;/*1.2倍行高*/
+	text-decoration: none;/*消除修饰*/
+	cursor: move;/*光标聚焦时的样式*/
+	vertical-align: 10px;/*设置对其位置，正值为对齐线向下移，负值为上移*/
+}

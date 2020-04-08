@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 根标签，设定语言 -->
+
+<head>
+	<meta charset="utf-8"><!-- 设定字符集，以及各种关键字 -->
+	<title>
+		<!-- 网页标题 -->
+		HTML基础
+	</title>
+</head>
+
+<body>
+	<!-- 0.网页内容 -->
+	hello world
+		<p></p><!-- 段落标签 -->
+
+		<h1></h1><!-- 标题标签，各分级字体大小不同，共6级-->
+		<h2></h2>
+
+		<strong style="color: #f40"></strong><!-- 加粗，加颜色，其他标签也可以加颜色——强调语气 -->
+		<i></i><!-- 斜体 -->
+		<b></b><!--定义粗体文字-->
+		<small></small><!--定义小号字-->
+		<sub></sub><!--定义下标字-->
+		<sup></sup><!--定义上标字-->
+		<ins></ins><!--定义插入字-->
+		<em></em><!-- 着重文字-->
+		<dfn></dfn><!--定义项目或缩写-->
+		<code><pre></pre></code><!--定义计算机代码文本，不保留空格和换行，要解决该问题可将之写在pre标签中-->
+		<samp></samp><!--定义样本文本-->
+		<kbd></kbd><!--定义键盘文本-->
+		<var></var><!--定义变量-->
+		<cite></cite><!--定义引用，对书籍报刊著作-->
+
+		<del></del><!-- 删除线 -->
+
+		<address></address> <!-- 地址，独占一行+斜体 -->
+
+		<q></q><!--短引用，为内容自动加引号-->
+		<blockquote></blockquote><!--长引用，为内容自动进行缩进处理-->
+		<abbr title=""></abbr><!--缩写，光标聚焦时显示全写-->
+		<bdo dir=""></bdo><!--定义双流向覆盖，dir属性声明方向，rtl:从右向左写-->
+
+		<!--条件注释-->
+		<!--[if IE 8]>
+			***
+		<![end if]-->
+
+	<!-- 1.容器，结构化，整体操作 -->
+	<div></div><!-- 独占一行 -->
+	<span></span><!-- 大小随内容水平扩展 -->
+
+	<div id="自定义标签id" style="width: 100px;height:100px;background-color: red">
+		aer ergserv vsevsd dfv sebsdf
+		<!-- 空格是文本分隔符，与数量无关 -->
+	</div>
+
+	<!-- 2.特殊字符表示 -->
+		avbefb&nbsp;&nbsp;&nbsp;&nbsp;aevgservsrbs
+		<!-- &nbsp是真正的空格 -->
+		&lt;
+		<!-- 小于号 -->
+		&gt;
+		<!-- 大于号 -->
+		<br/><!-- 换行符 -->
+		<hr><!-- 水平线/分割线 -->
+
+
+	<!-- 3.高级标签 -->
+
+		<!-- 有序列表,type属性为排序标号类型，1，a，A，i;reversed为倒序;start为开始序号 -->
+		<ol type="1" reversed='reversed' start='1'>
+			<li>
+				<!-- 列表项 -->
+				列表项1
+			</li>
+			<li>
+				列表项2
+			</li>
+		</ol>
+
+		<!-- 无序列表,type表示标号的形状，如square，circle -->
+		<ul type="disc">
+			<li>
+				无序列表项
+			</li>
+		</ul>
+
+		<dl>
+			<dt></dt>
+			<dd></dd>
+		</dl>
+
+		<!-- 图片标签 -->
+		<img src="1.网上url；2.本地路径（绝对，相对）" style="width: 200px" alt="图片无法加载时显示的信息" title="光标在图上时的提示">
+
+		<!-- 超链接标签,锚点；position设置标签位置（固定或指定等）target中设置是否在新标签中打开 name属性作用同id-->
+		<a href="目标网址，或 #标签id，或 tel:电话号码, 或 mailto:邮箱地址 ， 或 javascript:js代码" style="position: fixed;"
+			target="_blank" name="">用户可见地址，文本或图片</a>
+
+		<!-- 表单标签，可以发送数据 -->
+		<form method="发送数据方式， get或post" action="目标地址">
+			<input type="输入数据类型，text：文本，submit：提交输入数据, password:密码, radio：单选框，checkbox：复选框" checked="checked，使选择框默认为选中"
+				name="数据名，多个单选时保持一致" value="数据值" onfocus="鼠标聚焦时显示的内容" onblur="失去焦点时现实的内容">
+			<section name="数据名">
+				<!-- 下拉选项菜单 -->
+				<option value="数据值">
+					<!-- 选项 -->
+
+				</option>
+			</section>
+
+		</form>
+
+		<!--表格标签-->
+		<table>
+			<caption></caption><!--定义表格的标题-->
+			<col style="align-self:auto;"/><!--定义列的属性-->
+			<colgroup span="2"></colgroup><!--定义列组的属性，span指明跨的列数-->
+			<thead><!--页眉-->
+				<tr>
+				  <th>Month</th><!--表头-->
+				  <th>Savings</th>
+				</tr>
+			</thead>
+			
+			<tfoot><!--页脚-->
+				<tr>
+				  <td>Sum</td>
+				  <td>$180</td>
+				</tr>
+			</tfoot>
+			
+			<tbody><!--表格主体-->
+				<tr><!--行-->
+					<td>&nbsp;</td><!--表项 若表项为空，为显示标签需要加个占位符-->
+				</tr>
+			</tbody>
+			
+		</table>
+
+	<!-- 4.html属性 -->
+		<div id="" class="" style="height: 20px;" title="" onclick=""></div>
+
+</body>
+
+</html>

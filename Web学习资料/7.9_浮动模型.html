@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>浮动模型</title>
+	<link rel="stylesheet" type="text/css" href="7.9_浮动模型.css">
+</head>
+<body>
+	<!-- float:left/right -->
+
+	<!-- 浮动元素产生了浮动流
+	所有产生了浮动流的元素，块级元素看不到他们
+	产生了bfc的元素和文本类属性（inline）的元素以及文本都能看到浮动元素 -->
+
+	<div class="wrapper-">
+		<div class="content"></div>
+		<div class="content"></div>
+		<div class="content"></div>
+		——————————————————
+		<p></p>
+	</div>
+</body>
+</html>

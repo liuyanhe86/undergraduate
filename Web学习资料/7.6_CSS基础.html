@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		CSS基础
+	</title>
+	<link rel="stylesheet" type="text/css" href="7.6_CSS基础.css">
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: red
+		}
+	</style>
+</head>
+<body>
+	<!-- 引入CSS
+	1.行间样式 -->
+	<div style="width: 100px;height: 100px;background-color: red"></div>
+	<!-- 2.页面级CSS，见head中style -->
+	<!-- 3.外部CSS文件 -->
+	<div>
+		awrgaeargr
+	</div>
+
+	<!-- 选择器 -->
+	<!-- 1.id -->
+	<div id="idnum"></div>
+	<!-- 2.class -->
+	<div class="类名列表，每个类名用空格分开，即一个容器可以是多个类"></div>
+	<!-- 3.标签选择器
+	4.通配符选择器
+	5.属性选择器
+	选择器优先级：!important > 行间样式> id > class = 属性 > 标签 > 通配符 -->
+	
+	<!-- 复杂选择器
+	1.父子/派生选择器 -->
+	<div>
+		<span class="demo">
+			
+		</span>
+	</div>
+	<!-- 2.并列选择器 -->
+	<div class="demo">
+		
+	</div>
+	<!-- 3.分组选择器 -->
+	<em></em>
+	<STRONG></STRONG>
+	<span></span>
+
+	<!-- 1.行级元素、内联元素，inline，css代码中display属性隐式地赋值为inline，下面相同，且可以改变！
+	特点：内容决定元素所占位置，不可以通过CSS改变宽高，如span，strong，em，a，del
+
+	2.块级元素，block
+	特点：独占一行，可以通过CSS改变宽高，如div，p，ul，li，ol，form，address
+
+	3.行级块元素
+	特点：内容决定大小，可以改变宽高，如img -->
+	<!-- 凡是带有inline的元素都具有文字特性：空格和换行起文字分割作用，与数量无关-->
+
+	<!-- 编程技巧：先在CSS文件中写好功能，再在HTML中选定功能，如在css中编写选择器，在标签的class属性中选择对应的选择器——模块化-->
+
+	<!-- 盒子模型：每个容器的表现形式，所有标签都有
+	盒子四大部分：
+		1.盒子壁：border
+		2.盒子内边距：padding
+		3.盒子内容：width + height
+		4.盒子外边距：margin，即不同容器之间的距离
+	内部容器几何居中外部容器方法：两个容器的内容区设置相等大小
+	border，padding，magin都可对四个方向上下左右进行赋值
+	对padding赋值，可以连续赋四个参数，对应上右下左顺时针，若为三个，则为上左右下，若为两个，则为上下左右-->
+</body>
+</html>

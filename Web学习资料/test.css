@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	background-color: black;
+	border: 2px solid red;
+}
+
+.wrapper::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.content{
+	float: left;
+	height: 100px;
+	width: 100px;
+	background-color: green;
+}

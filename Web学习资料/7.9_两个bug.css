@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin-left: 100px;
+	margin-top: 100px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+
+	overflow: hidden;/*溢出部分隐藏*/
+}
+
+.content{
+	margin-left: 50px;
+	margin-top: 50px;/*bug1.比自己父容器垂直方向margin小时不触发！
+	超过时连带父容器一起移动，该现象称为margin塌陷*/
+	/*解决办法：将父容器置于bfc环境中
+	触发bfc三种方式:
+	1.position:absolute;
+	2.display:inline-block;
+	3.float:left/right;
+	4.overflow:hidden;
+	*/
+	width: 50px;
+	height: 50px;
+	background-color: green;
+}
+
+.box1{
+	background-color: red;
+}
+
+.box2{
+	background-color: green;
+}
+
+.demo1{
+	background-color: red;
+	margin-bottom: 100px;
+}
+
+.demo2{
+	background-color: green;
+	margin-top: 100px;/*bug2.并列的容器垂直方向的margin合并,
+	解决办法：
+	1.bfc——每个并列元素放在一个父容器中并触发bfc
+	2.不解决
+	*/
+}

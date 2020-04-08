@@ -1,0 +1,95 @@
+/*样式重置文件：去除不需要的默认样式*/
+body,p,h1,h2,h3,h4{
+	margin: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+image{
+	border: none;
+	vertical-align: middle;
+}
+
+a{
+	text-decoration: none;
+	color: #3c3c3c;
+}
+
+i{
+	font-style: normal;
+}
+
+input,button{
+	margin: 0;
+	padding: 0;
+}
+
+button{
+	outline: none;
+}
+
+table{
+	border-collapse: collapse;/*边框模式，合并的模式——两个单元格之间显示1px的像素*/
+}
+
+th,td{
+	padding: 0;
+}
+
+body{
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	/*组成 = 字体大小/行高（字面默认值或数值或百分比或像素值或em值+字体（‘’中为Unicode编码，代表汉字对应的编码）；
+	字体大小像素值（绝对值） = 100%（相对值） = 1em（相对值），数值是用来继承的
+	行高 = 数值*自己的字体大小 = 百分比或em*父级的字体大小）
+	字体的另一种写法：font-family:'宋体';*/
+	color: #3c3c3c;
+	background-color: #f4f4f4;
+}
+
+/*预定义样式*/
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.layer{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.c4{
+	color: #f40;
+}
+
+.c5{
+	color: #f50;
+}
+
+.mr5{
+	margin-right: 5px;
+}
+
+.mr7{
+	margin-right: 7px;
+}
+
+.mt10{
+	margin-top: 10px;
+}
+
+.mr10{
+	margin-right: 10px;
+}

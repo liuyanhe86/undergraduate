@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-image: url(test.jpg);
+	background-size: 100px 100px;/*设置背景图片大小，若小于容器大小则重复平铺*/
+	background-repeat: no-repeat;/*设置是否重复和重复方向*/
+	background-position: left top;/*设置背景图片位置,可以是
+	像素值也可以是字面值的组合，有left right top bottom center
+	几何居中为center center或50% 50%*/
+
+}

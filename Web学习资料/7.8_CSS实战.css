@@ -1,0 +1,54 @@
+/*伪类选择器（link：未访问的链接；visited：hover：鼠标悬停在超链接上的显示效果）*/
+div : hover
+{
+
+}
+
+div.class : visited{
+
+}
+
+/*伪元素:天生存在，不可见；行级元素*/
+span::before{/*选出元素逻辑最前的伪元素*/
+	content: "hello";/*伪元素独特属性，即使不写也要加*/
+}
+span::after{/*选出元素逻辑最后的伪元素*/
+	content: " world!";
+}
+
+/*标签初始化：可以改变标签的默认功能*/
+em{
+	font-style: normal;
+	color: #c00;
+}
+/*	通配符选择器的优势：可初始化所有标签，并支持用户后续自定义修饰！
+*/
+
+
+/*定位技术*/
+div{
+	position:absolute;/*1.脱离原来的位置进行定位，层的概念；相对于最近的有定位的父级定位，若没有定位，则相对文档定位*/
+	left: 100px;
+	top:200px;
+	/*right: 100px;
+	bottom: 200px;*/
+	/*一般上左*/
+
+	position:relative;/*2.保留原来的位置进行定位；相对于自己原来的位置定位*/
+	left: 100px;
+	top:200px;
+
+	position:fixed;/*3.固定*/
+	left: 100px;
+	top:200px;
+
+	position:fixed;/*4.保持容器始终在视图居中*/
+	left: 50%;
+	top:50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+
+.content{
+	margin: 0 auto;/*外边距上下为零，左右自适应居中*/
+}

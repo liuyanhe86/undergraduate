@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+}
+
+.content{
+	color: #fff;
+	background-color: black;
+	width: 100px;
+	height: 100px;
+
+	float: left;/*产生浮动流：对元素进行排队*/
+}
+
+p{
+	border-top: 10px solid green;
+	clear: both; /*清除浮动流：实现容器内动态数量子元素的排队，父容器就可以包住浮动元素*/
+	/*缺点：增加了html不必要结构，违反了设计原则*/	
+}
+
+/*改进方法：在父级元素的后置伪元素中清除浮动流，此时父级元素必须是块级元素*/
+.wrapper::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/*另一种包裹浮动元素的方法：position:absolute或float:left/right；
+——设置了position:absolute或float:left/right的元素会把内部元素转换成inline-block——display：inline-block;
+eg. span{
+	position：absolute;
+	height：100px;
+	width：100px;
+}————span可以设置宽高了！
+*/
+
+/*实现文字环绕图片*/
+img{
+	float: left;
+}
