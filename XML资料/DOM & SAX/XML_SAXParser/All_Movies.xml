@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all_movies>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt6751668"
+          year="2020">
+		    <name>Parasite</name>
+		    <intro>
+			A poor family, the Kims, con their way into becoming the servants of a rich family, the Parks. But their easy life gets complicated when their deception is threatened with exposure.
+		</intro>
+		    <rating site="IMDb">8.6</rating>
+		    <country>South Korea</country>
+		    <directors>
+			      <director>Bong Joon Ho</director>
+		    </directors>
+		    <writers>
+			      <writer>Bong Joon Ho</writer>
+		    </writers>
+		    <stars>
+			      <star>Kang-ho Song</star>
+			      <star>Sun-kyun Lee</star>
+			      <star>Yeo-jeong Jo</star>
+		    </stars>
+		    <duration>PT1H12M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Comedy</label>
+			      <label>Drama</label>
+			      <label>Thriller</label>
+		    </genres>
+		    <Opening_Weekend_USA>393,216</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SY1000_CR0,0,674,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt6966692"
+          year="2019">
+		    <name>Green Book</name>
+		    <intro>
+			A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.
+		</intro>
+		    <rating site="IMDb">8.2</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Peter Farrelly</director>
+		    </directors>
+		    <writers>
+			      <writer>Nick Vallelonga</writer>
+			      <writer>Brian Hayes Currie</writer>
+		    </writers>
+		    <stars>
+			      <star>Viggo Mortensen</star>
+			      <star>Mahershala Ali</star>
+			      <star>Linda Cardellini</star>
+		    </stars>
+		    <duration>PT1H10M</duration>
+		    <level>PG-13</level>
+		    <genres>
+			      <label>Biography</label>
+			      <label>Drama</label>
+			      <label>Comedy</label>
+		    </genres>
+		    <Opening_Weekend_USA>320,429</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_SY1000_CR0,0,666,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt5580390"
+          year="2018">
+		    <name>The Shape of Water</name>
+		    <intro>
+			At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.
+		</intro>
+		    <rating site="IMDb">7.3</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Guillermo del Toro</director>
+		    </directors>
+		    <writers>
+			      <writer>Guillermo del Toro</writer>
+			      <writer>Vanessa Taylor</writer>
+		    </writers>
+		    <stars>
+			      <star>Sally Hawkins</star>
+			      <star>Octavia Spencer</star>
+			      <star>Michael Shannon</star>
+		    </stars>
+		    <duration>PT2H2M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Adventure</label>
+			      <label>Drama</label>
+			      <label>Fantasy</label>
+		    </genres>
+		    <Opening_Weekend_USA>166,564</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BNGNiNWQ5M2MtNGI0OC00MDA2LWI5NzEtMmZiYjVjMDEyOWYzXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SY1000_CR0,0,674,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt4975722"
+          year="2017">
+		    <name>Moonlight</name>
+		    <intro>
+			A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.
+		</intro>
+		    <rating site="IMDb">7.4</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Barry Jenkins</director>
+		    </directors>
+		    <writers>
+			      <writer>Barry Jenkins</writer>
+			      <writer>Tarell Alvin McCraney</writer>
+		    </writers>
+		    <stars>
+			      <star>Mahershala Ali</star>
+			      <star>Naomie Harris</star>
+			      <star>Trevante Rhodes</star>
+		    </stars>
+		    <duration>PT1H51M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Drama</label>
+		    </genres>
+		    <Opening_Weekend_USA>402,075</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt1895587"
+          year="2016">
+		    <name>Spotlight</name>
+		    <intro>
+			The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.
+		</intro>
+		    <rating site="IMDb">8.1</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Tom McCarthy</director>
+		    </directors>
+		    <writers>
+			      <writer>Josh Singer</writer>
+			      <writer>Tom McCarthy</writer>
+		    </writers>
+		    <stars>
+			      <star>Mark Ruffalo</star>
+			      <star>Michael Keaton</star>
+			      <star>Rachel McAdams</star>
+		    </stars>
+		    <duration>PT2H9M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Biography</label>
+			      <label>Drama</label>
+			      <label>Crime</label>
+		    </genres>
+		    <Opening_Weekend_USA>295,009</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_SY1000_CR0,0,676,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt2562232"
+          year="2015">
+		    <name>Birdman or (The Unexpected Virtue of Ignorance) </name>
+		    <intro>
+			A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.
+		</intro>
+		    <rating site="IMDb">7.7</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Alejandro G.Iñárritu</director>
+		    </directors>
+		    <writers>
+			      <writer>Alejandro G. Iñárritu</writer>
+			      <writer>Nicolás Giacobone</writer>
+		    </writers>
+		    <stars>
+			      <star>Michael Keaton</star>
+			      <star>Zach Galifianakis</star>
+			      <star>Edward Norton</star>
+		    </stars>
+		    <duration>PT1H59M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Comedy</label>
+			      <label>Drama</label>
+		    </genres>
+		    <Opening_Weekend_USA>424,397</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_SY1000_CR0,0,674,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt2024544"
+          year="2014">
+		    <name>12 Years a Slave</name>
+		    <intro>
+			In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.
+		</intro>
+		    <rating site="IMDb">8.1</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Steve McQueen</director>
+		    </directors>
+		    <writers>
+			      <writer>John Ridley</writer>
+			      <writer>Solomon Northup</writer>
+		    </writers>
+		    <stars>
+			      <star>Chiwetel Ejiofor</star>
+			      <star>Michael Kenneth Williams</star>
+			      <star>Michael Fassbender</star>
+		    </stars>
+		    <duration>PT1H14M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Biography</label>
+			      <label>Drama</label>
+			      <label>History</label>
+		    </genres>
+		    <Opening_Weekend_USA>923,715</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt1024648"
+          year="2013">
+		    <name>Argo</name>
+		    <intro>
+			Acting under the cover of a Hollywood producer scouting a location for a science fiction film, a CIA agent launches a dangerous operation to rescue six Americans in Tehran during the U.S. hostage crisis in Iran in 1979.
+		</intro>
+		    <rating site="IMDb">7.7</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Ben Affleck</director>
+		    </directors>
+		    <writers>
+			      <writer>Chris Terrio</writer>
+			      <writer>Tony Mendez</writer>
+		    </writers>
+		    <stars>
+			      <star>Ben Affleck</star>
+			      <star>Bryan Cranston</star>
+			      <star>John Goodman</star>
+		    </stars>
+		    <duration>PT2H</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Biography</label>
+			      <label>Drama</label>
+			      <label>Thriller</label>
+		    </genres>
+		    <Opening_Weekend_USA>19,458,109</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BNzljNjY3MDYtYzc0Ni00YjU0LWIyNDUtNTE0ZDRiMGExMjZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt1655442"
+          year="2012">
+		    <name>The Artist</name>
+		    <intro>
+			An egomaniacal film star develops a relationship with a young dancer against the backdrop of Hollywood's silent era.
+		</intro>
+		    <rating site="IMDb">7.9</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Michel Hazanavicius</director>
+		    </directors>
+		    <writers>
+			      <writer>Michel Hazanavicius</writer>
+		    </writers>
+		    <stars>
+			      <star>Jean Dujardin</star>
+			      <star>Bérénice Bejo</star>
+			      <star>John Goodman</star>
+		    </stars>
+		    <duration>PT1H40M</duration>
+		    <level>PG-13</level>
+		    <genres>
+			      <label>Comedy</label>
+			      <label>Drama</label>
+			      <label>Romance</label>
+		    </genres>
+		    <Opening_Weekend_USA>204,878</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMDUyZWU5N2UtOWFlMy00MTI0LTk0ZDYtMzFhNjljODBhZDA5XkEyXkFqcGdeQXVyNzA4ODc3ODU@._V1_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt1504320"
+          year="2011">
+		    <name>The King's Speech</name>
+		    <intro>
+			The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.
+		</intro>
+		    <rating site="IMDb">8.0</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Tom Hooper</director>
+		    </directors>
+		    <writers>
+			      <writer>David Seidler</writer>
+		    </writers>
+		    <stars>
+			      <star>Colin Firth</star>
+			      <star>Geoffrey Rush</star>
+			      <star>Helena Bonham Carter</star>
+		    </stars>
+		    <duration>PT1H58M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Biography</label>
+			      <label>Drama</label>
+			      <label>History</label>
+		    </genres>
+		    <Opening_Weekend_USA>355,450</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_SY1000_CR0,0,684,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0887912"
+          year="2010">
+		    <name>The Hurt Locker</name>
+		    <intro>
+			During the Iraq War, a Sergeant recently assigned to an army bomb squad is put at odds with his squad mates due to his maverick way of handling his work.
+		</intro>
+		    <rating site="IMDb">7.6</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Kathryn Bigelow</director>
+		    </directors>
+		    <writers>
+			      <writer>Mark Boal</writer>
+		    </writers>
+		    <stars>
+			      <star>Jeremy Renner</star>
+			      <star>Anthony Mackie</star>
+			      <star>Brian Geraghty</star>
+		    </stars>
+		    <duration>PT2H11M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Drama</label>
+			      <label>Thriller</label>
+			      <label>War</label>
+		    </genres>
+		    <Opening_Weekend_USA>145,352</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BYWYxZjU2MmQtMmMzYi00ZWUwLTg2ZWQtMDExZTVlYjM3ZWM1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,666,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt1010048"
+          year="2009">
+		    <name>Slumdog Millionaire</name>
+		    <intro>
+			A Mumbai teenager reflects on his life after being accused of cheating on the Indian version of "Who Wants to be a Millionaire?".
+		</intro>
+		    <rating site="IMDb">8.6</rating>
+		    <country>U.K</country>
+		    <directors>
+			      <director>Danny Boyle</director>
+			      <director>Loveleen Tandan</director>
+		    </directors>
+		    <writers>
+			      <writer>Simon Beaufoy</writer>
+			      <writer>Vikas Swarup</writer>
+		    </writers>
+		    <stars>
+			      <star>Dev Patel</star>
+			      <star>Freida Pinto</star>
+			      <star>Saurabh Shukla</star>
+		    </stars>
+		    <duration>PT2H</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Drama</label>
+			      <label>Romance</label>
+		    </genres>
+		    <Opening_Weekend_USA>360,018</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BZmNjZWI3NzktYWI1Mi00OTAyLWJkNTYtMzUwYTFlZDA0Y2UwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,675,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0477348"
+          year="2008">
+		    <name>No Country for Old Men</name>
+		    <intro>
+			Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.
+		</intro>
+		    <rating site="IMDb">8.1</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Ethan Coen</director>
+			      <director>Joel Coen</director>
+		    </directors>
+		    <writers>
+			      <writer>Joel Coen</writer>
+			      <writer>Ethan Coen</writer>
+		    </writers>
+		    <stars>
+			      <star>Tommy Lee Jones</star>
+			      <star>Javier Bardem</star>
+			      <star>Josh Brolin</star>
+		    </stars>
+		    <duration>PT2H2M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Crime</label>
+			      <label>Drama</label>
+			      <label>Thriller</label>
+		    </genres>
+		    <Opening_Weekend_USA>1,202,000</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0407887"
+          year="2007">
+		    <name>The Departed</name>
+		    <intro>
+			An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.
+		</intro>
+		    <rating site="IMDb">8.5</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Martin Scorsese</director>
+		    </directors>
+		    <writers>
+			      <writer>William Monahan</writer>
+			      <writer>Alan Mak</writer>
+		    </writers>
+		    <stars>
+			      <star>Leonardo DiCaprio</star>
+			      <star>Matt Damon</star>
+			      <star>Jack Nicholson</star>
+		    </stars>
+		    <duration>PT2H31M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Crime</label>
+			      <label>Drama</label>
+			      <label>Thriller</label>
+		    </genres>
+		    <Opening_Weekend_USA>26,887,467</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0375679"
+          year="2006">
+		    <name>Crash</name>
+		    <intro>
+			Los Angeles citizens with vastly separate lives collide in interweaving stories of race, loss and redemption.
+		</intro>
+		    <rating site="IMDb">7.8</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Paul Haggis</director>
+		    </directors>
+		    <writers>
+			      <writer>Paul Haggis</writer>
+		    </writers>
+		    <stars>
+			      <star>Don Cheadle</star>
+			      <star>Sandra Bullock</star>
+			      <star>Thandie Newton</star>
+		    </stars>
+		    <duration>PT1H52M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Crime</label>
+			      <label>Drama</label>
+			      <label>Thriller</label>
+		    </genres>
+		    <Opening_Weekend_USA>9,107,071</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BOTk1OTA1MjIyNV5BMl5BanBnXkFtZTcwODQxMTkyMQ@@._V1_SY1000_CR0,0,675,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0405159"
+          year="2005">
+		    <name>Million Dollar Baby</name>
+		    <intro>
+			A determined woman works with a hardened boxing trainer to become a professional.
+		</intro>
+		    <rating site="IMDb">8.1</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Clint Eastwood</director>
+		    </directors>
+		    <writers>
+			      <writer>Paul Haggis</writer>
+			      <writer>F.X. Toole</writer>
+		    </writers>
+		    <stars>
+			      <star>Hilary Swank</star>
+			      <star>Sandra Bullock</star>
+			      <star>Morgan Freeman</star>
+		    </stars>
+		    <duration>PT2H12M</duration>
+		    <level>PG-13</level>
+		    <genres>
+			      <label>Drama</label>
+			      <label>Sport</label>
+		    </genres>
+		    <Opening_Weekend_USA>179,953</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_SY1000_CR0,0,678,1000_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0167260"
+          year="2004">
+		    <name>The Lord of the Rings: The Return of the King</name>
+		    <intro>
+			Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.
+		</intro>
+		    <rating site="IMDb">8.9</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Peter Jackson</director>
+		    </directors>
+		    <writers>
+			      <writer>J.R.R. Tolkien</writer>
+			      <writer>Fran Walsh</writer>
+		    </writers>
+		    <stars>
+			      <star>Elijah Wood</star>
+			      <star>Viggo Mortensen</star>
+			      <star>Ian McKellen</star>
+		    </stars>
+		    <duration>PT3H21M</duration>
+		    <level>PG-13</level>
+		    <genres>
+			      <label>Adventure</label>
+			      <label>Drama</label>
+			      <label>Fantasy</label>
+		    </genres>
+		    <Opening_Weekend_USA>72,629,713</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0299658"
+          year="2003">
+		    <name>Chicago</name>
+		    <intro>
+			Two death-row murderesses develop a fierce rivalry while competing for publicity, celebrity, and a sleazy lawyer's attention.
+		</intro>
+		    <rating site="IMDb">7.1</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Rob Marshall</director>
+		    </directors>
+		    <writers>
+			      <writer>Bill Condon</writer>
+			      <writer>Bob Fosse</writer>
+		    </writers>
+		    <stars>
+			      <star>Renée Zellweger</star>
+			      <star>Catherine Zeta-Jones</star>
+			      <star>Richard Gere</star>
+		    </stars>
+		    <duration>PT1H53M</duration>
+		    <level>PG-13</level>
+		    <genres>
+			      <label>Comedy</label>
+			      <label>Crime</label>
+			      <label>Musical</label>
+		    </genres>
+		    <Opening_Weekend_USA>2,074,929</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BN2E3NDU1ZTktNzZjNy00MWU3LWI4YmMtMjdjNTIzMDU0MDdiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0268978"
+          year="2002">
+		    <name>A Beautiful Mind</name>
+		    <intro>
+			After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.
+		</intro>
+		    <rating site="IMDb">8.2</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Ron Howard</director>
+		    </directors>
+		    <writers>
+			      <writer>Akiva Goldsman</writer>
+			      <writer>Sylvia Nasar</writer>
+		    </writers>
+		    <stars>
+			      <star>Russell Crowe</star>
+			      <star>Ed Harris</star>
+			      <star>Jennifer Connelly</star>
+		    </stars>
+		    <duration>PT2H15M</duration>
+		    <level>PG-13</level>
+		    <genres>
+			      <label>Biography</label>
+			      <label>Drama</label>
+		    </genres>
+		    <Opening_Weekend_USA>367,151</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMzcwYWFkYzktZjAzNC00OGY1LWI4YTgtNzc5MzVjMDVmNjY0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0172495"
+          year="2001">
+		    <name>Gladiator</name>
+		    <intro>
+			A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.
+		</intro>
+		    <rating site="IMDb">8.5</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Ridley Scott</director>
+		    </directors>
+		    <writers>
+			      <writer>David Franzoni</writer>
+		    </writers>
+		    <stars>
+			      <star>Russell Crowe</star>
+			      <star>Joaquin Phoenix</star>
+			      <star>Connie Nielsen</star>
+		    </stars>
+		    <duration>PT2H35M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Action</label>
+			      <label>Adventure</label>
+			      <label>Drama</label>
+		    </genres>
+		    <Opening_Weekend_USA>34,819,017</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0169547"
+          year="2000">
+		    <name>American Beauty</name>
+		    <intro>
+			A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.
+		</intro>
+		    <rating site="IMDb">8.3</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Sam Mendes</director>
+		    </directors>
+		    <writers>
+			      <writer>Alan Ball</writer>
+		    </writers>
+		    <stars>
+			      <star>Kevin Spacey</star>
+			      <star>Annette Bening</star>
+			      <star>Thora Birch</star>
+		    </stars>
+		    <duration>PT2H2M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Drama</label>
+		    </genres>
+		    <Opening_Weekend_USA>861,531</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BNTBmZWJkNjctNDhiNC00MGE2LWEwOTctZTk5OGVhMWMyNmVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0138097"
+          year="1999">
+		    <name>Shakespeare in Love</name>
+		    <intro>
+			The world's greatest ever playwright, William Shakespeare, is young, out of ideas and short of cash, but meets his ideal woman and is inspired to write one of his most famous plays.
+		</intro>
+		    <rating site="IMDb">7.1</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>John Madden</director>
+		    </directors>
+		    <writers>
+			      <writer>Marc Norman</writer>
+			      <writer>Tom Stoppard</writer>
+		    </writers>
+		    <stars>
+			      <star>Gwyneth Paltrow</star>
+			      <star>Joseph Fiennes</star>
+			      <star>Geoffrey Rush</star>
+		    </stars>
+		    <duration>PT2H3M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Comedy</label>
+			      <label>Drama</label>
+			      <label>History</label>
+		    </genres>
+		    <Opening_Weekend_USA>224,012</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BM2ZkNjM5MjEtNTBlMC00OTI5LTgyYmEtZDljMzNmNzhiNzY0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY268_CR3,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0120338"
+          year="1998">
+		    <name>Titanic</name>
+		    <intro>
+			A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+		</intro>
+		    <rating site="IMDb">7.8</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>James Cameron</director>
+		    </directors>
+		    <writers>
+			      <writer>James Cameron</writer>
+		    </writers>
+		    <stars>
+			      <star>Leonardo DiCaprio</star>
+			      <star>Kate Winslet</star>
+			      <star>Billy Zane</star>
+		    </stars>
+		    <duration>PT3H14M</duration>
+		    <level>PG-13</level>
+		    <genres>
+			      <label>Drama</label>
+			      <label>Romance</label>
+		    </genres>
+		    <Opening_Weekend_USA>28,638,131</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0116209"
+          year="1997">
+		    <name>The English Patient</name>
+		    <intro>
+			At the close of World War II, a young nurse tends to a badly-burned plane crash victim. His past is shown in flashbacks, revealing an involvement in a fateful love affair.
+		</intro>
+		    <rating site="IMDb">7.4</rating>
+		    <country>U.K</country>
+		    <directors>
+			      <director>Anthony Minghella</director>
+		    </directors>
+		    <writers>
+			      <writer>Michael Ondaatje</writer>
+			      <writer>Anthony Minghella</writer>
+		    </writers>
+		    <stars>
+			      <star>Ralph Fiennes</star>
+			      <star>Juliette Binoche</star>
+			      <star>Willem Dafoe</star>
+		    </stars>
+		    <duration>PT2H42M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Drama</label>
+			      <label>Romance</label>
+			      <label>War</label>
+		    </genres>
+		    <Opening_Weekend_USA>278,439</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BOTkxZTdkNTQtM2QwOS00NzRlLWEyMGItYTcxOTE4NTgyNGVhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0112573"
+          year="1996">
+		    <name>Braveheart</name>
+		    <intro>
+			When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt against King Edward I of England.
+		</intro>
+		    <rating site="IMDb">8.3</rating>
+		    <country>U.K</country>
+		    <directors>
+			      <director>Mel Gibson</director>
+		    </directors>
+		    <writers>
+			      <writer>Randall Wallace</writer>
+		    </writers>
+		    <stars>
+			      <star>Mel Gibson</star>
+			      <star>Sophie Marceau</star>
+			      <star>Patrick McGoohan</star>
+		    </stars>
+		    <duration>PT2H58M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Biography</label>
+			      <label>Drama</label>
+			      <label>History</label>
+		    </genres>
+		    <Opening_Weekend_USA>9,938,276</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0109830"
+          year="1995">
+		    <name>Forrest Gump</name>
+		    <intro>
+			The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.
+		</intro>
+		    <rating site="IMDb">8.8</rating>
+		    <country>U.K</country>
+		    <directors>
+			      <director>Robert Zemeckis</director>
+		    </directors>
+		    <writers>
+			      <writer>Winston Groom</writer>
+			      <writer>Eric Roth</writer>
+		    </writers>
+		    <stars>
+			      <star>Tom Hanks</star>
+			      <star>Robin Wright</star>
+			      <star>Gary Sinisen</star>
+		    </stars>
+		    <duration>PT2H22M</duration>
+		    <level>PG-13</level>
+		    <genres>
+			      <label>Drama</label>
+			      <label>Romance</label>
+		    </genres>
+		    <Opening_Weekend_USA>24,450,602</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR1,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0108052"
+          year="1994">
+		    <name>Schindler's List</name>
+		    <intro>
+			In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.
+		</intro>
+		    <rating site="IMDb">8.9</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Steven Spielberg</director>
+		    </directors>
+		    <writers>
+			      <writer>Thomas Keneally</writer>
+			      <writer>Steven Zaillian</writer>
+		    </writers>
+		    <stars>
+			      <star>Liam Neeson</star>
+			      <star>Ralph Fiennes</star>
+			      <star>Ben Kingsley</star>
+		    </stars>
+		    <duration>PT3H15M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Biography</label>
+			      <label>Drama</label>
+			      <label>History</label>
+		    </genres>
+		    <Opening_Weekend_USA>656,636</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0105695"
+          year="1993">
+		    <name>Unforgiven</name>
+		    <intro>
+			Retired Old West gunslinger William Munny (Clint Eastwood) reluctantly takes on one last job, with the help of his old partner Ned Logan (Morgan Freeman) and a young man, The "Schofield Kid" (Jaimz Woolvett).
+		</intro>
+		    <rating site="IMDb">8.2</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Clint Eastwood</director>
+		    </directors>
+		    <writers>
+			      <writer>David Webb Peoples</writer>
+		    </writers>
+		    <stars>
+			      <star>Clint Eastwood</star>
+			      <star>Gene Hackman</star>
+			      <star>Morgan Freeman</star>
+		    </stars>
+		    <duration>PT2H10M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Drama</label>
+			      <label>Western</label>
+		    </genres>
+		    <Opening_Weekend_USA>15,018,007</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BODM3YWY4NmQtN2Y3Ni00OTg0LWFhZGQtZWE3ZWY4MTJlOWU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0102926"
+          year="1992">
+		    <name>The Silence of the Lambs</name>
+		    <intro>
+			A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.
+		</intro>
+		    <rating site="IMDb">8.6</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Jonathan Demme</director>
+		    </directors>
+		    <writers>
+			      <writer>Thomas Harris</writer>
+			      <writer>Ted Tally</writer>
+		    </writers>
+		    <stars>
+			      <star>Jodie Foster</star>
+			      <star>Anthony Hopkins</star>
+			      <star>Lawrence A. Bonney</star>
+		    </stars>
+		    <duration>PT1H58M</duration>
+		    <level>R</level>
+		    <genres>
+			      <label>Crime</label>
+			      <label>Drama</label>
+			      <label>Thriller</label>
+		    </genres>
+		    <Opening_Weekend_USA>13,766,814</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0099348"
+          year="1991">
+		    <name>Dances with Wolves</name>
+		    <intro>
+			Lieutenant John Dunbar, assigned to a remote western Civil War outpost, befriends wolves and Indians, making him an intolerable aberration in the military.
+		</intro>
+		    <rating site="IMDb">8.0</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Kevin Costnere</director>
+		    </directors>
+		    <writers>
+			      <writer>Michael Blake</writer>
+		    </writers>
+		    <stars>
+			      <star>Kevin Costner</star>
+			      <star>Mary McDonnell</star>
+			      <star>Graham Greene</star>
+		    </stars>
+		    <duration>PT3H1M</duration>
+		    <level>PG-13</level>
+		    <genres>
+			      <label>Adventure</label>
+			      <label>Drama</label>
+			      <label>Western</label>
+		    </genres>
+		    <Opening_Weekend_USA>598,257</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMTY3OTI5NDczN15BMl5BanBnXkFtZTcwNDA0NDY3Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+   <movie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          id="tt0097239"
+          year="1990">
+		    <name>Driving Miss Daisy</name>
+		    <intro>
+			An old Jewish woman and her African-American chauffeur in the American South have a relationship that grows and improves over the years.
+		</intro>
+		    <rating site="IMDb">7.4</rating>
+		    <country>U.S.A</country>
+		    <directors>
+			      <director>Bruce Beresford</director>
+		    </directors>
+		    <writers>
+			      <writer>Alfred Uhry</writer>
+		    </writers>
+		    <stars>
+			      <star>Morgan Freeman</star>
+			      <star>Jessica Tandy</star>
+			      <star>Dan Aykroyd</star>
+		    </stars>
+		    <duration>PT1H39M</duration>
+		    <level>PG</level>
+		    <genres>
+			      <label>Drama</label>
+		    </genres>
+		    <Opening_Weekend_USA>73,745</Opening_Weekend_USA>
+		    <poster_url>https://m.media-amazon.com/images/M/MV5BMDE2ZTY3YmUtZTFhYy00ZmU2LWI2NjktY2NmZGZlYjg5OGMwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg</poster_url>
+	  </movie>
+</all_movies>

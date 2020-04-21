@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT catalog (movie+)>
+<!ELEMENT movie (name, intro, rating, country, directors, writers, stars, duration, level, genres, poster_url)>
+<!ATTLIST movie
+	id ID #REQUIRED
+>
+<!ATTLIST movie
+    year CDATA #REQUIRED
+>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT directors (director+)>
+<!ELEMENT genres (label+)>
+<!ELEMENT intro (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT level (#PCDATA)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT poster_url (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ATTLIST rating
+	site CDATA #REQUIRED
+>
+<!ELEMENT star (#PCDATA)>
+<!ELEMENT stars (star+)>
+<!ELEMENT duration (#PCDATA)>
+<!ATTLIST time
+	unit CDATA #REQUIRED
+>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT writers (writer+)>
+<!ENTITY prefix "https://m.media-amazon.com/images/M/">

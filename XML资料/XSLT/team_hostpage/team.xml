@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='team.xsl' ?>
+<team>
+	<team_name>西米露</team_name>
+	<team_id>5</team_id>
+	<people_number>2</people_number>
+	<team_members>
+		<team_member duty="组长">
+			<name>李泓烨</name>
+			<sex value="male"/>
+			<age>21</age>
+			<hobbies>
+				<hobby>吉他</hobby>
+				<hobby>看电影</hobby>
+				<hobby>击剑</hobby>
+			</hobbies>
+			<job>学生</job>
+			<company>东南大学</company>
+			<contact>
+				<email>mushiswiftie@gmail.com</email>
+				<tel>+86-15651691006</tel>
+			</contact>
+			<pic>group_profile_resource/lhy.jpg</pic>
+		</team_member>
+		<team_member duty="组员">
+			<name>	柳沿河	</name>
+			<sex value='male'/>
+			<age>20</age>
+			<hobbies>
+				<hobby>看电影</hobby>
+				<hobby>听音乐</hobby>
+				<hobby>书法</hobby>
+				<hobby>健身</hobby>
+			</hobbies>
+			<job>学生</job>
+			<company>东南大学</company>
+			<contact>
+				<email>liuyanhe86@gmail.com</email>
+				<tel>+86-15651616863</tel>
+			</contact>
+			<pic>group_profile_resource/lyh.jpg</pic>
+		</team_member>
+	</team_members>
+</team>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='2008.xsl' ?>
+<!DOCTYPE catalog [
+	<!ENTITY prefix "https://m.media-amazon.com/images/M/">
+]>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="2008.xsd">
+	<movie id="tt0477348" year="2008">
+		<name>No Country for Old Men</name>
+		<intro>
+			Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.
+		</intro>
+		<rating site="IMDb">8.1</rating>
+		<country>U.S.A</country>
+		<directors>
+			<director>Ethan Coen</director>
+			<director>Joel Coen</director>
+		</directors>
+		<writers>
+			<writer>Joel Coen</writer>
+			<writer>Ethan Coen</writer>
+		</writers>
+		<stars>
+			<star>Tommy Lee Jones</star>
+			<star>Javier Bardem</star>
+			<star>Josh Brolin</star>
+		</stars>
+		<duration>PT2H2M</duration>
+		<level>R</level>
+		<genres>
+			<label>Crime</label>
+			<label>Drama</label>
+			<label>Thriller</label>
+		</genres>
+		<Opening_Weekend_USA>1,202,000</Opening_Weekend_USA>
+		<poster_url>https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_.jpg</poster_url>
+	</movie>
+</catalog>

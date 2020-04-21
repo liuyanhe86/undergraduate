@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--W3C Schema 由 XMLSpy v2005 发行版 3 U 创建 (http://www.altova.com)-->
+<!DOCTYPE xs:schema [
+	<!ENTITY prefix "https://m.media-amazon.com/images/M/">
+]>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="name" type="xs:string" default="default movie name"/>
+	<xs:element name="intro" type="xs:string" default="This is a default introduction."/>
+	<xs:simpleType name="rate">
+		<xs:restriction base="xs:decimal">
+			<xs:fractionDigits value="1"/>
+			<xs:maxInclusive value="9.9"/>
+			<xs:minInclusive value="1.0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="rating">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="rate">
+					<xs:attribute name="site" type="xs:string" use="optional" default="IMDb"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="country" type="xs:string" default="U.S.A"/>
+	<xs:element name="director" type="xs:string" default="abc"/>
+	<xs:element name="directors">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="director" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="writer" type="xs:string"/>
+	<xs:element name="writers">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="writer" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="star" type="xs:string"/>
+	<xs:element name="stars">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="star" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="duration" type="xs:duration"/>
+	<xs:element name="level">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="G"/>
+				<xs:enumeration value="PG"/>
+				<xs:enumeration value="PG-13"/>
+				<xs:enumeration value="NC-17"/>
+				<xs:enumeration value="R"/>
+			</xs:restriction>
+		</xs:simpleType>	
+	</xs:element>
+	<xs:element name="label">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Adventure"/>
+				<xs:enumeration value="Biography"/>
+				<xs:enumeration value="Comedy"/>
+				<xs:enumeration value="Crime"/>
+				<xs:enumeration value="Drama"/>
+				<xs:enumeration value="Fantasy"/>
+				<xs:enumeration value="History"/>
+				<xs:enumeration value="Romance"/>
+				<xs:enumeration value="Thriller"/>
+				<xs:enumeration value="War"/>
+				<xs:enumeration value="Sport"/>
+				<xs:enumeration value="Musical"/>
+				<xs:enumeration value="Action"/>
+				<xs:enumeration value="Western"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="genres">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="label" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="poster_url" type="xs:string" default="http://www.imdb.com"/>
+	
+	<xs:element name="Opening_Weekend_USA">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[0-9]{1,3}(,[0-9]{3})*"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="movie">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"/>
+				<xs:element ref="intro"/>
+				<xs:element ref="rating"/>
+				<xs:element ref="country"/>
+				<xs:element ref="directors"/>
+				<xs:element ref="writers"/>
+				<xs:element ref="stars"/>
+				<xs:element ref="duration"/>
+				<xs:element ref="level"/>
+				<xs:element ref="genres"/>
+				<xs:element ref="Opening_Weekend_USA"/>
+				<xs:element ref="poster_url"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:string" use="required"/>
+			<xs:attribute name="year" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:gYear">
+						<xs:minInclusive value="1929"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="catalog">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="movie" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

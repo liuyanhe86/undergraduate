@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="poster.xsl"?>
+<!DOCTYPE catalog [
+	<!ENTITY prefix "https://m.media-amazon.com/images/M/">
+]>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./Oscars_Best_Motion_Pics-v1.6.xsd">
+    <movie id="tt6966692" year="2019">
+        <name>Green Book</name>
+        <intro>
+            A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.
+        </intro>
+        <rating site="IMDb">8.2</rating>
+        <country>U.S.A</country>
+        <directors>
+            <director>Peter Farrelly</director>
+        </directors>
+        <writers>
+            <writer>Nick Vallelonga</writer>
+            <writer>Brian Hayes Currie</writer>
+        </writers>
+        <stars>
+            <star>Viggo Mortensen</star>
+            <star>Mahershala Ali</star>
+            <star>Linda Cardellini</star>
+        </stars>
+        <duration>PT1H10M</duration>
+        <level>PG-13</level>
+        <genres>
+            <label>Biography</label>
+            <label>Drama</label>
+            <label>Comedy</label>
+        </genres>
+        <Opening_Weekend_USA>320,429</Opening_Weekend_USA>
+        <poster_url>&prefix;MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_SY1000_CR0,0,666,1000_AL_.jpg</poster_url>
+    </movie>
+</catalog>
